@@ -1,0 +1,21 @@
+[submodule "modules/chocolatey"]
+	path = modules/chocolatey
+	url = https://github.com/chocolatey/puppet-chocolatey.git
+[submodule "modules/download_file"]
+	path = modules/download_file
+	url = https://github.com/opentable/puppet-download_file.git
+[submodule "modules/powershell"]
+	path = modules/powershell
+	url = https://github.com/joshcooper/puppetlabs-powershell.git
+[submodule "modules/registry"]
+	path = modules/registry
+	url = https://github.com/puppetlabs/puppetlabs-registry.git
+[submodule "modules/stdlib"]
+	path = modules/stdlib
+	url = https://github.com/puppetlabs/puppetlabs-stdlib.git
+[submodule "modules/windows_env"]
+	path = modules/windows_env
+	url = https://github.com/badgerious/puppet-windows-env.git
+[submodule "modules/windows_path"]
+	path = modules/windows_path
+	url = https://github.com/basti1302/puppet-windows-path.git

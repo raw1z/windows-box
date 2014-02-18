@@ -1,0 +1,21 @@
+let g:unite_font_custom_list = [
+      \ "Inconsolata-dz for Powerline",
+      \ "Andale Mono for Powerline",
+      \ "DejaVu Sans Mono for Powerline",
+      \ "Envy Code R for Powerline",
+      \ "Pragmata",
+      \ "TeX Gyre Cursor",
+      \ "Source Code Pro for Powerline",
+      \ "BPMono",
+      \ "Anonymous Pro",
+      \ "Droid Sans Mono Slashed for Powerline",
+      \ "Ubuntu Mono derivative Powerline",
+      \ "Meslo LG M for Powerline",
+      \ "Liberation Mono for Powerline"
+      \ ]
+
+let g:unite_font_sizes = [8, 10, 12, 14, 16, 18, 20]
+let g:unite_font_current_size = 16
+
+let &guifont=g:unite_font_custom_list[6].':h'.g:unite_font_current_size
+
